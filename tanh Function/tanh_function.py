@@ -20,16 +20,16 @@ class tanh:
     def __init__(self):
         pass
 
-    # define sigmoid function
+    # define tanh function
     def tanh_function(self,x):
         return np.tanh(x)
     
-    # plot sigmoid curve
+    # plot tanh curve
     def visualize_tanh(self):
         
         # initialize list to store x
         x = []
-        # initialize list to store sigmoid(x)
+        # initialize list to store tanh(x)
         tanh_fcn = []
         
         # loop through a set of values
